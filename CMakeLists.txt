@@ -191,3 +191,6 @@ include_directories(
 
 add_executable(go2point src/go2point.cpp)
 target_link_libraries(go2point ${catkin_LIBRARIES})
+
+add_executable(go2point2 src/go2point2.cpp)
+target_link_libraries(go2point2 ${catkin_LIBRARIES})
